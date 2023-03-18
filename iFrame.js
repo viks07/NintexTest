@@ -71,7 +71,7 @@ let NintexSampleIframe = _decorate([e$1('nintex-sample-iframe')], function (_ini
       function getMetaConfig() {
         // plugin contract information
         return {
-          controlName: 'IFrame-new',
+          controlName: 'IFrame-07',
           fallbackDisableSubmit: false,
           description: 'IFrame component which can render url view with the frame',
           iconUrl: 'one-line-text',
@@ -82,7 +82,7 @@ let NintexSampleIframe = _decorate([e$1('nintex-sample-iframe')], function (_ini
               type: 'string',
               title: 'Source URL',
               description: 'URL of the iframe, please note many sites block been rendered in iframes',
-              defaultValue: 'https://www.wikipedia.org/'
+              defaultValue: 'https://www.google.com/'
             },
             height: {
               type: 'string',
@@ -101,6 +101,7 @@ let NintexSampleIframe = _decorate([e$1('nintex-sample-iframe')], function (_ini
             required: true,
             description: true
           }
+          
         };
       }
 
