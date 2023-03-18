@@ -50,7 +50,7 @@ let NintexSampleIframe = _decorate([e$1('nintex-sample-iframe')], function (_ini
       decorators: [e()],
       key: "src",
       value() {
-        return 'https://www.wikipedia.org/';
+        return 'https://www.google.com';
       }
     }, {
       kind: "field",
